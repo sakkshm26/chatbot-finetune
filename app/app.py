@@ -3,9 +3,9 @@ from dotenv import load_dotenv
 load_dotenv()
 import streamlit as st
 import openai
-openai.api_key = os.environ['api_key']
+openai.api_key = st.secrets['api_key']
 
-model_name = os.environ['model_name']
+model_name = st.secrets['model_name']
 
 chat_history = []
 
