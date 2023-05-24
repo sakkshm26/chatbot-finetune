@@ -9,7 +9,7 @@ model_name = st.secrets['model_name']
 
 chat_history = []
 
-st.title('donald trump chatbot')
+st.title('trump chat')
 
 prompt = st.text_input("Enter prompt here")
   
