@@ -1,0 +1,6 @@
+__pycache__
+.venv
+prompt_completion_pairs_prepared.jsonl
+prompt_completion_pairs.jsonl
+transcripts.txt
+.env
